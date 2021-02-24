@@ -1,3 +1,5 @@
+# configure Vagrant
+
 Vagrant.configure("2") do |config|
     config.vm.provider "virtualbox"
     config.vm.box = "hashicorp/bionic64"
